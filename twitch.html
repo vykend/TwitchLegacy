@@ -13,16 +13,13 @@
 
 <body style="margin: 0px; background-color: #000000; color: #ffffff;">
 
-<div >
+<div>
 	<input type="text" maxlength="512" id="input"/>
 	<input id="load" type="button" value="Load channel" onclick="doLoad();" />
+	<iframe id="chat" src="" height="100%" align="right" frameborder="0"> </iframe>
 </div>
-<div id="container" style="height: calc(100% - 21px);">
-	<iframe id="chat" src="" height="100%" style="float: right" frameborder="0"> </iframe>
-	<iframe id="player" src="" height="100%" frameborder="0" style="width: calc(100% - 300px)"> </iframe>
-</div>
-	
-	
+<div style="max-width: 1049px">
+	<iframe id="player" src="" height="630px" width="100%"  frameborder="0"> </iframe>
 </div>
 <script>
 
